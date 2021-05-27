@@ -68,13 +68,18 @@ body {
 }
 
 .card-footer {
-  border-top: 2px solid hsl(227, 10%, 46%, 0.6);
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: 35px;
   justify-items: center;
   gap: 0 4rem;
 }
+
+.footer-border{
+  width: 100%;
+  border-top: 2px solid hsl(227, 10%, 46%, 0.6);
+}
+
 
 .title {
   font-weight: 700;
@@ -88,6 +93,7 @@ body {
 
 a {
   text-decoration: none;
+  color: hsl(229, 23%, 23%);
 }
 
 .attribution {
@@ -95,4 +101,6 @@ a {
   bottom: 0;
   width: 100%;
   color: #fff;
+  font-size: 11px;
+  text-align: center;
 }
